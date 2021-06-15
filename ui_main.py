@@ -31,7 +31,7 @@ class Stats:
         }
         #data['msg'] = content
         #data['roomid'] = roomid
-        cookie = {'cookie': '_uuid=F4632D84-4AF9-A4E4-6EA4-9F494013965A67449infoc; buvid3=34CC82F6-6D68-4D26-A6C9-B3613B62307513439infoc; fingerprint=a36c0698c02fc7b82454285fb7ebad2e; buvid_fp=34CC82F6-6D68-4D26-A6C9-B3613B62307513439infoc; buvid_fp_plain=CAF2852A-5B2C-4DC4-9B62-B0AC1FB3F0B334777infoc; SESSDATA=edf48872%2C1637584882%2C9de74%2A51; bili_jct=74b3d40b75e6730241b75229a3db8f5f; DedeUserID=1063023997; DedeUserID__ckMd5=f1370fd7a98e5081; sid=alfhcb21; CURRENT_FNVAL=80; blackside_state=1; rpdid=|(k|YkRlY)km0JuYkk|JJul); LIVE_BUVID=AUTO6816222028739495; CURRENT_QUALITY=80; bp_t_offset_1063023997=535026683109037144; bp_video_offset_1063023997=535786694761180219; Hm_lvt_8a6e55dbd2870f0f5bc9194cddf32a02=1623593021,1623642052,1623650554,1623652515; _dfcaptcha=ef73066ac2a8633493b9bf73d95661f4; Hm_lpvt_8a6e55dbd2870f0f5bc9194cddf32a02=1623658405; PVID=3'}
+        cookie = {'cookie': 自己输入}#...我刚上传，b站昵称就被改了。。。
         danmuSent = requests.post(url, cookies=cookie, data=data).text
         print((danmuSent))
 
